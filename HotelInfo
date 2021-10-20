@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<link href="../../../css/bootstrap-4.4.1.css" rel="stylesheet">
+<link rel="stylesheet" href="HotelCards.css" type="text/css">
+<meta charset="utf-8">
+<title>Hotelcards</title>
+</head>
+
+<body>
+	<div class="header">
+
+      <h1 style="display: inline-block;"> DDHL</h1>
+            <h2>Find your Hotel Today!</h2>
+		</div>
+	
+	<div class="container">
+      <div class="row text-center">
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="breakfast.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Breakfast on us!</h5>
+              <p class="card-text">Breakfast will be made available at 7:30AM<br>Every Morning!</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="computer.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Booking Option</h5>
+              <p class="card-text">Our booking options are extremely flexible! <br> We help amend your plans as things change!<br>  Book with us Today!</p>
+              <a href="#" class="btn btn-primary">Book Today</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 pb-1 pb-md-0">
+          <div class="card">
+            <img class="card-img-top" src="room.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Health And Safety</h5>
+              <p class="card-text">Your Health and Safety is Number 1!<br>  We strictly follow the comprehensive health and safety procedures   including all local laws. </p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+</body>
+</html>
