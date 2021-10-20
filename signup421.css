@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	color: black;
+    font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+h3{
+	text: Bold;
+	font-size: 25px;
+}
+.header{
+	background-color: aqua;
+	text-align: center;
+}
+.container{
+	text-align: center;
+}
+.Loginbtn{
+	background-color:aqua;
+}
+
+.cancelbtn{
+	background-color:aqua;
+}
+.signupbtn{
+	background-color:aqua;
+}
