@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	background-color: gray;
+}
+
+h1 {
+	color: black;
+    font-family: Helvetica, sans-serif;
+	text-align: center;
+}
+h3{
+	font-weight: Bold;
+	font-size: 25px;
+}
+.header{
+	background-color: aqua;
+	text-align: center;
+}
+.container{
+	text-align: center;
+}
+.Loginbtn{
+	background-color:aqua;
+    left:600px;
+    position: absolute;
+}
+
+.cancelbtn{
+	background-color:aqua;
+    position: absolute;
+    right: 600px;
+}
+
+.emails{
+    position: absolute;
+    left: 780px;
+}
+.newpassword{
+    position: absolute;
+    left: 780px;
+}
+.ReEnterPassword{
+    position: absolute;
+    left: 780px;
+}
+.NewPassword {
+    position: absolute;
+    left: 670px;
+}
+.email {
+    position: absolute;
+   
+    left: 730px;
+}
+.reenterpassword{
+    position: absolute;
+    left:645px;
+}
