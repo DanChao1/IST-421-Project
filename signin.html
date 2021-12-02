@@ -19,11 +19,30 @@
       
 .container{
 	text-align: center;
+    
 }
 
 
-
-
+.psw{
+    right: 600px;
+    position: absolute;
+}
+.cancelbtn {
+    left:700px;
+    position: absolute;
+}
+.loginbtn {
+    right: 600px;
+    position:absolute;
+}
+.remember {
+    left:700px;
+    position: absolute;
+}
+.checkbox {
+    left:680px;
+    position: absolute;
+}
     </style>
 
     </head>
@@ -42,23 +61,39 @@
                 </div>
               
                 <div class="container">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
                   <label for="uname"><b>Username</b></label>
                   <input type="text" placeholder="Enter Username" name="uname" required>
+                  <br>
                   <br>
                   <label for="psw"><b>Password</b></label>
                   <input type="password" placeholder="Enter Password" name="psw" required>
                   <br>
+                  <br>
+                  <br>
+                  <br>
                   <label>
-                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                    <input class= "checkbox" type="checkbox" checked="checked" name="remember"> <b class= "remember" type="text">Remember me</b>
                   </label>
-                  <button Style="display: inblock; width: 100px;"onclick="window.location.href= 'C:/Users/Patel/OneDrive/Desktop/IST-421-Project-2/HotelInfo.html';"type="submit">Login</button>
+                  <button id="loginbtn" class = "loginbtn" Style="display: inblock; width: 100px;"onclick="window.location.href= 'HotelInfo.html';"type="submit">Login</button>
                   
                   
                 </div>
-              
+              <br>
+              <br>
                 <div class="container" style="background-color:#f1f1f1">
-                  <button id= "cancelbtn" type="button" class="cancelbtn" onclick="window.location.href= 'C:/Users/Patel/OneDrive/Desktop/IST-421-Project-2/home.html';">Cancel</button>
-                  <span class="psw"><a href="#">Forgot password?</a></span>
+                  <button id= "cancelbtn" type="button" class="cancelbtn" onclick="window.location.href= 'home.html';">Cancel</button>
+                  <span class="psw"><a href="Forgot.html">Forgot password?</a></span>
                 </div>
               </form>
               <script>
