@@ -3,6 +3,7 @@
     <style>
         body {
             margin: 0;
+            background-color: grey;
         }
 
         /* Style the header */
@@ -15,7 +16,16 @@
 
 
         }
+      
+.container{
+	text-align: center;
+}
+
+
+
+
     </style>
+
     </head>
     <body>
 
@@ -26,6 +36,40 @@
 
 
         </div>
+        <div id = "in" class="signindesign">
+            <form action="action_page.php" method="post">
+                
+                </div>
+              
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+                  <br>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                  <br>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                  <button Style="display: inblock; width: 100px;"type="submit">Login</button>
+                  
+                  
+                </div>
+              
+                <div class="container" style="background-color:#f1f1f1">
+                  <button id= "cancelbtn" type="button" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+              <script>
+                  
+              </script>
+            </div>
+          
+           
+
+        </div>
+        
 
     </body>
 

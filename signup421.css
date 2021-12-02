@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+body {
+	margin: 0;
+	background-color: gray;
+}
+
 h1 {
 	color: black;
     font-family: Helvetica, sans-serif;

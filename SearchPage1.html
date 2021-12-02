@@ -252,17 +252,31 @@
 <style>
 body {
   font-family: sans-serif;
+ 
   font-size: 14px;
+  height: 400px;
+  background-color: grey;
 }
+
+* {
+    box-sizing: border-box;
+}
+
 table {
   font-size: 12px;
 }
+.container {
+    padding: 40px;
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
 #map_canvas {
-  position: absolute;
-  width: 440px;
+  position: Center;
+  width: 600px;
   height: 440px;
-  top: 28px;
-  left: 0px;
+  top: 250px;
+  left: 500px;
   border: 1px solid grey;
 }
 #listing {
@@ -270,23 +284,25 @@ table {
   width: 200px;
   height: 470px;
   overflow: auto;
-  left: 442px;
-  top: 0px;
+  top: 250px;
+  left: 1200px;
+  
   cursor: pointer;
   overflow-x: hidden;
 }
 #controls {
   position: absolute;
-  top: 0px;
-  left: 300px;
+  top: 70px;
+  right: 400px;
+  Left: 850px;
   width: 140px;
 }
 #locationField {
   width: 190px;
   height: 25px;
-  top: 0px;
-  left: 108px;
-  position: absolute;
+  top: 70px;
+  left: 600px;
+  position: absolute ;
 }
 #autocomplete {
   width: 100%;
@@ -312,8 +328,10 @@ table {
   font-family: Arial Unicode MS;
 }
 #findhotels {
-  text-align: right;
+  text-align: absolute;
   width: 100px;
+  top: 70px;
+  Left: 500px;
   font-size: 14px;
   padding: 4px;
   position: absolute;
@@ -324,13 +342,31 @@ table {
 .iw_attribute_name {
   font-weight: bold;
   text-align: right;
+
+}
+h1 {
+	color: white;
+    font-family: Helvetica, sans-serif;
+    width: 1600px;
+   
+    text-align: left;
+    background-color: lightblue;
+    position: center;
 }
 </style>
 </head>
-<body style="margin:0px; padding:0px;" onload="initialize()">
+<body style="margin:0px ; padding:0px;" onload="initialize()">
+  
+  <div class= "header">
+    <h1 style="display: inline-block;"> DDHL</h1>
   <div id="findhotels">
     Find hotels in:
   </div>
+
+
+ 
+</body>
+<body1 style="margin:0px ; padding:0px;" onload="initialize()">
   <div id="locationField">
     <input id="autocomplete" placeholder="Enter a city" type="text" />
   </div>
@@ -352,8 +388,8 @@ table {
       <option value="uk">United Kingdom</option>
     </select>
   </div>
+  </div>
   <div id="map_canvas"></div>
   <div id="listing"><table id="resultsTable"><tbody id="results"></tbody></table></div>
-</body>
 </html>
 
