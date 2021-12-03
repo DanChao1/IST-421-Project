@@ -1,8 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	margin: 0;
-	background-color: gray;
+    margin: 0;
+    background-image: url("Images/Signup.jpg");
+    background-repeat: no-repeat;
+    background-position: center 0%;
+    background-size: cover;
 }
 
 h1 {

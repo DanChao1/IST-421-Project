@@ -1,5 +1,7 @@
 @charset "utf-8";
-/* CSS Document */
+body{
+	 background-image: url("Images/Hotelinfobackground.jpg")
+}
 h1 {
 	color: black;
     font-family: Helvetica, sans-serif;
@@ -9,8 +11,106 @@ h1 {
 	background-color: aqua;
 	text-align: center;
 }
+.bkgFood {
+    background-image: url("Images/oginbackground.jpg");
+    background-size: cover;
+}
+.img150px {
+    width: 150px;
+    height: 150px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+}
+.imgFloatright{
+	float: right
+}
+iframe {
+    width: 750px;
+    height: 350px;
+	border: 0px;
+}
+.padding{
+	padding-right: 60px;
+}
+#image-container {
+	margin: 0px;
+	padding: 0px;
+}
 
-img{
-	height: 200px;
-	width: 400px;
+#subpage-content {
+	width: 800px;
+	min-height: 350px;
+	background-color: rgba(255,255,255,0.85);
+	margin: 0px auto 0px auto;
+	padding: 15px;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 22px;
+}
+
+#subpage-content img   {
+	padding: 0px;
+	background-color: rgba(100,100,100,1.00)
+}
+#subpage-content h1 {
+	font-size: 2em;
+	font-weight: 600;
+	padding: 0px;
+	margin: 0px 0px 20px 0px;
+	text-indent: 0px;
+} 
+article.two-column {
+	margin: 0px 0px 0px 0px;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+#subpage-content h2 {
+	font-size: 1.5em;
+	font-weight: 600;
+	padding: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 5px;
+	} 
+#subpage-content p {
+	margin: 0px 20px 10px 0px;
+	padding: 0px;
+}
+
+
+#subpage-content a {
+	color:#333333;
+	font-weight:bold;
+}
+#subpage-content ul {
+	margin: 0px 0px 15px 15px;
+	padding: 0px;
+}
+#subpage-content ul li  {
+	margin: 0px;
+	padding: 0px;
+}
+
+#subpage-logo {
+	width: 100%;
+	text-align: center;
+	margin: 0px 0px 0px 0px;
+	padding: 20px 0px 15px 0px;
+	height: 90;
+	float: left;
+	background-color: #000;
+}
+input {
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+    clear: both;
+}
+.noclear {
+    width: auto;
+    margin-right: 10px;
+    clear: none;
 }
