@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+    <script src="signup.js"></script>
 	<body>
 	<link rel="stylesheet" href="signup421.css" type="text/css">
 	<div class="header">
@@ -9,7 +10,7 @@
             <h2>Find your Hotel Today!</h2>
 		</div>
 	
-    <form class="form" id="signup" action="action_page.php" >
+    <form class="form" id="signup" action="/Users/Patel/OneDrive/Desktop/IST-421-Project-2/HotelInfo.html" >
         <div class="container">
           <h3>Sign Up</h3>
           <p>Please fill in this form to create an account.</p>
@@ -31,19 +32,21 @@
             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
           </label>
       
-          <p>By creating an account you agree to our <a onclick="window.location.href= 'TermandCondition.jpg';"style="color:dodgerblue">Terms & Privacy</a>.</p>
+          <p>By creating an account you agree to our <a onclick="window.location.href= 'TermandCondition.jpg';"style="color:red">Terms & Privacy</a>.</p>
       
           <div class="clearfix">
             <button type="button" class="cancelbtn" onclick="window.location.href= 'home.html';">Cancel</button>
-            <button type="submit" class="signupbtn" onclick="window.location.href= 'HotelInfo.html'">Sign Up</button>
+            <button type="submit" class="signupbtn">Sign Up</button>
           </div>
 			<div class="Log">
 			<p>Already Signed Up?</p>
 			<button type="button" class="Loginbtn"onclick="window.location.href= 'signin.html';">Log In</button>	
 			</div>
         </div>
+       
       </form>
 		</body>
-    <script src="signup.js"></script>
+    
+    
 	</head>
 </html>
